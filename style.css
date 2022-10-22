@@ -1,0 +1,84 @@
+body{
+    background-image: url(sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fish1,.fish2,.fish3,.fish4,.fish5,.fish6{
+    width: 80px;
+    height: 170px;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+.fish1{
+    animation-name:fish1;
+    animation-duration: 4s;
+}
+.fish2{
+    animation-name:fish2;
+    animation-duration: 6s;
+}
+.fish3{
+    animation-name:fish3;
+    animation-duration:6s;
+}
+.fish4{
+    animation-name:fish4;
+    animation-duration: 8s;
+}
+.fish5{
+    animation-name:fish5;
+    animation-duration: 8s;
+}
+.fish6{
+    animation-name:fish6;
+    animation-duration:5s;
+}
+@keyframes fish1 {
+    0%{left:0%; top:0%;}
+    20%{left:20% ; top:10%;}
+    40%{left:40 ; top:0%;}
+    60%{left:60 ; top:10%;}
+    80%{left:80%;top:0%;}
+    100%{left:100%;}
+}
+@keyframes fish2 {
+    0%{right:0%;  }
+    20%{right:20% ; top:0%;}
+    40%{right:40 ; top:10%;}
+    60%{right:60 ; top:0%;}
+    80%{right:80%; top:10px;}
+    100%{right:100% ;top: 0%;}
+}
+@keyframes fish3 {
+    0%{left:0%; top:20%;}
+    20%{left:20% ; top:30%;}
+    40%{left:40 ; top:20%;}
+    60%{left:60 ; top:30%;}
+    80%{left:80%;top:20%;}
+    100%{left:100%; top:30px}
+}
+@keyframes fish4 {
+    0%{right:0%;  }
+    20%{right:20% ; top:30%;}
+    40%{right:40 ; top:20%;}
+    60%{right:60 ; top:30%;}
+    80%{right:80%; top:20px;}
+    100%{right:100%;top:30%;}
+}
+@keyframes fish5 {
+    0%{left:0%; top:40%;}
+    20%{left:20% ; top:50%;}
+    40%{left:40 ; top:40%;}
+    60%{left:60 ; top:50%;}
+    80%{left:80%;top:40%;}
+    100%{left:100%; top:50%}
+}
+@keyframes fish6{
+    0%{right:0%; top:40%; }
+    20%{right:20% ; top:50%;}
+    40%{right:40 ; top:40%;}
+    60%{right:60 ; top:50%;}
+    80%{right:80%; top:40px;}
+    100%{right:100%;top:50%;}
+}
+
